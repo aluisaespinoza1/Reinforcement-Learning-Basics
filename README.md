@@ -99,9 +99,9 @@ Hiperparámetros
 * gamma: Factor de descuento (0.99). Controla la importancia de las recompensas futuras.
 * epsilon: Tasa de exploración (1.0 inicialmente). Controla la probabilidad de que el agente elija una acción aleatoria.
 * epsilon_decay: Tasa de decaimiento de epsilon (0.999). Reduce epsilon con el tiempo para equilibrar exploración y explotación.
-* epsilon_min: Valor mínimo de epsilon (0.01).
-* learning_rate: Tasa de aprendizaje (0.0015). Controla la magnitud de los ajustes en los pesos de la red.
-* batch_size: Tamaño del minibatch (32). Número de experiencias utilizadas para entrenar la red en cada paso.
+* epsilon_min: Valor mínimo de epsilon (0.001).
+* learning_rate: Tasa de aprendizaje (0.001). Controla la magnitud de los ajustes en los pesos de la red.
+* batch_size: Tamaño del minibatch (85). Número de experiencias utilizadas para entrenar la red en cada paso.
 
 
 
