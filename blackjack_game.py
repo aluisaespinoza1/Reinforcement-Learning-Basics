@@ -28,10 +28,10 @@ class DQLAgent:
         self.memory = deque(maxlen=2000)
         self.gamma = 0.99  # Discount factor
         self.epsilon = 1.0  # Exploration rate
-        self.epsilon_min = 0.01
+        self.epsilon_min = 0.001
         self.epsilon_decay = 0.999
-        self.learning_rate = 0.0015
-        self.batch_size = 32
+        self.learning_rate = 0.001
+        self.batch_size = 85
         
         self.model = DQN(state_size, action_size)
         self.optimizer = optim.Adam(self.model.parameters(), lr=self.learning_rate)
